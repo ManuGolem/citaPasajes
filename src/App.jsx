@@ -1,3 +1,13 @@
+import { Cuerpo } from "./components/Cuerpo";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+
 export function App() {
-    return <h1 className="text-amber-300">Cita Pasajes pero bien hecho</h1>;
+    return (
+        <>
+            <Header />
+            <Cuerpo />
+            <Footer />
+        </>
+    );
 }
